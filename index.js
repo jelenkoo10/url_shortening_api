@@ -98,3 +98,7 @@ function normalStyling() {
     errorMsg.style.display = "span"
     errorMsg.textContent = ""
 }
+
+/* GSAP animations */
+gsap.from(".background", {opacity: 0, duration: 1.5, y: -50})
+gsap.from("#input", {width: 0, duration: 2})
